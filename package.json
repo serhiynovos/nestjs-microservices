@@ -1,0 +1,43 @@
+{
+  "name": "nest-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "auth:dev": "nodemon --config apps/auth/nodemon.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serrg1994/nestjs-microservices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serrg1994/nestjs-microservices/issues"
+  },
+  "homepage": "https://github.com/serrg1994/nestjs-microservices#readme",
+  "dependencies": {
+    "@nestjs/common": "^5.0.0",
+    "@nestjs/core": "^5.0.0",
+    "@nestjs/mongoose": "^5.1.0",
+    "fastify-formbody": "^2.0.0",
+    "mongoose": "^5.2.8",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.0.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/node": "^9.3.0",
+    "nodemon": "^1.14.1",
+    "prettier": "^1.11.1",
+    "ts-loader": "^4.1.0",
+    "ts-node": "^4.1.0",
+    "tsconfig-paths": "^3.1.1",
+    "tslint": "5.3.2",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
