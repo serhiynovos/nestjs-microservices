@@ -12,7 +12,12 @@
     "sourceMap": true,
     "allowJs": true,
     "outDir": "./dist",
-    "baseUrl": "./src"
+    "baseUrl": ".",
+    "paths": {
+      "@nest/*": [
+        "lib/*"
+      ]
+    }
   },
   "include": [
     "src/**/*"
